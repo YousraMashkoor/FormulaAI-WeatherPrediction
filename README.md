@@ -6,7 +6,8 @@ Our solution is an AI-enabled weather forecasting application based on big data 
 ur Architectural Flow is divided into 3 main Activity:
 1. Data Analytics
 2. Oracle Cloud
-3. Machine Learning Pipeline.
+3. Machine Learning Pipeline.  
+
 We have a total 3572328 number of records that we used for our preliminary analysis, where we analyzed and investigated the data sets, and summarized their main characteristics.  
 Which we later used to extract the top most features. We then used these selected feature with our Oracle Analytical Cloud​ and Oracle Autonomous Database. Since data was huge to work on files, we have resolved to use an autonomous database along with​ Oracle Data Science Cloud notebook. 
 
@@ -84,7 +85,7 @@ Seasonal Autoregressive Integrated Moving Average (SARIMA)  or Seasonal ARIMA, i
 ### RandomForest for Prediction:
 ![My Remote Image](https://github.com/YousraMashkoor/FormulaAI-WeatherPrediction/blob/master/images/RandomForest.png)
 
-### Output Format:
+### Final Output:
 
 ```python
 {
@@ -118,12 +119,12 @@ This is our sample dashboard where users would be able to see the real time chan
 ![My Remote Image](https://github.com/YousraMashkoor/FormulaAI-WeatherPrediction/blob/master/images/image2.png)
 
 
-![My Remote Image](https://github.com/YousraMashkoor/FormulaAI-WeatherPrediction/blob/master/images/slide13.jpg)
+![My Remote Image](https://github.com/YousraMashkoor/FormulaAI-WeatherPrediction/blob/master/images/Slide13.jpg)
 
 The changes would be visible for every 5 till 60 minutes, all the while updating the total metrics affecting the forecasting, realtime nowcast precipitation level and downpour change in the last few minutes . 
 
-![My Remote Image](https://github.com/YousraMashkoor/FormulaAI-WeatherPrediction/blob/master/images/slide15.jpg)
+![My Remote Image](https://github.com/YousraMashkoor/FormulaAI-WeatherPrediction/blob/master/images/Slide15.jpg)
 
 The users would in fact be able to view the change in the values for the metrics affecting the forecasting.
 
-![My Remote Image](https://github.com/YousraMashkoor/FormulaAI-WeatherPrediction/blob/master/images/slide17.jpg)
+![My Remote Image](https://github.com/YousraMashkoor/FormulaAI-WeatherPrediction/blob/master/images/Slide17.jpg)
