@@ -37,7 +37,7 @@ M_TRACK_LENGTH  7.654119e+07
 M_SESSION_TIME  4.096546e+07
 
 
-## [Selection of Classifier based on AUTO ML results:]()
+## [Selection of Classifier based on AUTO ML results:](https://github.com/YousraMashkoor/FormulaAI-WeatherPrediction/blob/master/AUTOML_ClassificationSelection.ipynb)
 * Decision Tree
 * Linear
 * Random Forest
@@ -55,3 +55,37 @@ Seasonal Autoregressive Integrated Moving Average (SARIMA)  or Seasonal ARIMA, i
 2.Produce h-step-ahead forecasts from the end of that sample
 3.Compare forecasts against test dataset to compute error rate
 4.Expand the sample to include the next observation, and repeat
+
+# Output:
+### Decision Tree with Selected Feature in EDA:
+![My Remote Image](https://github.com/YousraMashkoor/FormulaAI-WeatherPrediction/blob/master/images/decision-tree.png)
+
+### RandomForest for Prediction:
+![My Remote Image](https://github.com/YousraMashkoor/FormulaAI-WeatherPrediction/blob/master/images/RandomForest.png)
+
+### Output Format:
+
+```python
+{
+  '5':{
+    'type': 1,
+    'rain_percentage': 0.074
+  },
+  '10':{
+    'type': 0,
+    'rain_percentage': 0.0269
+  }
+  '15':{
+    'type': 1,
+    'rain_percentage': 0.0150
+  }
+  '30':{
+    'type': 0, 
+    'rain_percentage': 0.00508
+  }
+  '50':{
+    'type': 0,
+    'rain_percentage': 0
+  }
+} 
+```
